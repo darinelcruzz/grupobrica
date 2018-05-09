@@ -1,5 +1,5 @@
 <?php
 
-Route::get('runa', function () {
-    return view('welcome');
+Route::get('hercules', function () {
+    return 'Bienvenido a Hercules';
 });

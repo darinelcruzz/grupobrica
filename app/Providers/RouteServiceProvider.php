@@ -34,14 +34,14 @@ class RouteServiceProvider extends ServiceProvider
 
     protected function mapRunaRoutes()
     {
-        Route::middleware(['web', 'auth'])
+        Route::middleware(['web', 'auth', 'runa'])
              ->namespace($this->namespace)
              ->group(base_path('routes/runa.php'));
     }
 
     protected function mapHerculesRoutes()
     {
-        Route::middleware(['web', 'auth'])
+        Route::middleware(['web', 'auth', 'hercules'])
              ->namespace($this->namespace)
              ->group(base_path('routes/hercules.php'));
     }
