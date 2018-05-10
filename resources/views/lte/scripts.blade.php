@@ -7,7 +7,7 @@
 <!-- AdminLTE App -->
 <script src="{{ asset('adminlte/dist/js/adminlte.min.js') }}"></script>
 
-{{-- <script src="{{ mix('js/app.js') }}"></script> --}}
+<script src="{{ mix('js/app.js') }}"></script>
 
 <!-- DataTables -->
 <script src="{{ asset('adminlte/bower_components/datatables.net/js/jquery.dataTables.min.js') }}"></script>
