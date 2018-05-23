@@ -2,10 +2,16 @@
 
 return [
 	
-	'example1' => [
-        'title' => 'Simple',
-        'icon' => 'fa fa-cogs',
-        'route' => 'home',
+	'clients' => [
+        'title' => 'Clientes',
+        'icon' => 'fa fa-user',
+        'route' => 'runa.client.index',
+    ],
+
+    'users' => [
+        'title' => 'Usuarios',
+        'icon' => 'fa fa-key',
+        'route' => 'runa.user.index',
     ],
 
     'example2' => [

@@ -167,6 +167,11 @@ return [
         'date' => 'fecha',
         'time' => 'hora',
         'subject' => 'asunto',
-        'message' => 'mensaje',
+        'rfc' => 'R.F.C.',
+        'contact' => 'contacto',
+        'contact_phone' => 'teléfono de contacto',
+        'credit' => 'crédito',
+        'discount' => 'descuento',
+        'level' => 'nivel',
     ],
 ];
