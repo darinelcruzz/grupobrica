@@ -9,8 +9,8 @@ Vue.component('dropdown', require('./components/lte/DropdownButton.vue'));
 Vue.component('ddi', require('./components/lte/DropdownItem.vue'));
 Vue.component('modal', require('./components/lte/Modal.vue'));
 Vue.component('modal-button', require('./components/lte/ModalButton.vue'));
-Vue.component('tabs', require('./components/lte/Tabs.vue'));
-Vue.component('tab', require('./components/lte/Tab.vue'));
+Vue.component('products', require('./components/ProductTable.vue'));
+Vue.component('row', require('./components/ProductRow.vue'));
 
 const app = new Vue({
     el: '#app'

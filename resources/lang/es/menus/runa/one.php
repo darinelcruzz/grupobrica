@@ -2,7 +2,26 @@
 
 return [
 	
-	'clients' => [
+    'quotations' => [
+        'title' => 'Cotizaciones',
+        'icon' => 'fa fa-calculator',
+        'submenu' => [
+        	'finished' => [
+                'title' => 'Terminado',
+                'route' => ['runa.quotation.create', ['type' => 0]]
+            ],
+            'production' => [
+                'title' => 'Producción',
+                'route' => ['runa.quotation.create', ['type' => 1]]
+            ],
+            'index' => [
+                'title' => 'Cobro',
+                'route' => 'runa.quotation.index'
+            ],
+        ]
+    ],
+
+    'clients' => [
         'title' => 'Clientes',
         'icon' => 'fa fa-user',
         'route' => 'runa.client.index',
@@ -14,20 +33,6 @@ return [
         'route' => 'runa.user.index',
     ],
 
-    'example2' => [
-        'title' => 'Multinivel',
-        'icon' => 'fa fa-cogs',
-        'submenu' => [
-        	'subnivel1' => [
-                'title' => 'Uno',
-                'route' => 'home'
-            ],
-            'subnivel2' => [
-                'title' => 'Dos',
-                'route' => 'home'
-            ],
-        ]
-    ],
 
     'logout' => [
         'title' => 'Salir',

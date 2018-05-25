@@ -173,5 +173,6 @@ return [
         'credit' => 'crédito',
         'discount' => 'descuento',
         'level' => 'nivel',
+        'retainer' => 'anticipo',
     ],
 ];
